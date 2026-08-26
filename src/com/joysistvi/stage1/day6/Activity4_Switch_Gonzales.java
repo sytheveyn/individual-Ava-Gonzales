@@ -16,18 +16,24 @@ public class Activity4_Switch_Gonzales {
         System.out.print("Enter your choice (1-4) : ");
         int choice = sc.nextInt();
 
-        if (choice ==1) {
-            System.out.println("You selected option 1 : View Grades");
-        } else if (choice ==2) {
-            System.out.println("You selected option 2 : Enroll Subjects");
-        }  else if (choice ==3) {
-            System.out.println("You selected option 3 : Pay Tuition");
-        } else if (choice ==4) {
-            System.out.println("You selected option 4 : Exit");
-        } else {
-            System.out.println("Invalid choice");
-        }
 
+      switch(choice){
+          case 1:
+              System.out.println("You selected option 1 : View Grades");
+              break;
+          case 2:
+              System.out.println("You selected option 2 : Enroll Subjects");
+              break;
+          case 3:
+              System.out.println("You selected option 3 : Pay Tuition");
+              break;
+          case 4:
+              System.out.println("You selected option 4 : Exit");
+              break;
+              default:
+                  System.out.println("Invalid choice");
+
+      }
 
 
     }

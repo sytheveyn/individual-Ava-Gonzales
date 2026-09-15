@@ -1,4 +1,4 @@
-package com.joysistvi.stage2.activity.day21;
+package com.joysistvi.stage2.activity13;
 
 public class RegularEmployee extends Employee {
     public RegularEmployee(String name, double baseSalary) {

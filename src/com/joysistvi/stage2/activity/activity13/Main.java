@@ -1,4 +1,4 @@
-package com.joysistvi.stage2.activity.day21;
+package com.joysistvi.stage2.activity13;
 
 public class Main {
     public static void main(String[] args) {
